@@ -8,6 +8,7 @@ python_version = "{{cookiecutter.python_version}}"
 
 [packages]
 {{cookiecutter.repo_name}} = {editable = true, path = "."}
+click = "*"
 
 [dev-packages]
 black = "*"
