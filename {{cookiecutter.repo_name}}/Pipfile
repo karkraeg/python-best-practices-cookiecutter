@@ -4,12 +4,13 @@ url = "https://pypi.python.org/simple"
 verify_ssl = true
 
 [requires]
-python_version = "{python_version}"
+python_version = "{{cookiecutter.python_version}}"
 
 [packages]
+{{cookiecutter.project_slug}} = {editable = true, path = "."}
 
 [dev-packages]
-black = "==22.3.0"
+black = "*"
 flake8 = "*"
 isort = "*"
 mypy = "*"

@@ -1,5 +1,2 @@
-def fib(n: int) -> int:
-    if n < 2:
-        return n
-    else:
-        return fib(n - 1) + fib(n - 2)
+def calc_sum(x: int, y: int):
+    return x + y
