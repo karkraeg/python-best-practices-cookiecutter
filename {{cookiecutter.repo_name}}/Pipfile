@@ -7,7 +7,7 @@ verify_ssl = true
 python_version = "{{cookiecutter.python_version}}"
 
 [packages]
-{{cookiecutter.project_slug}} = {editable = true, path = "."}
+{{cookiecutter.repo_name}} = {editable = true, path = "."}
 
 [dev-packages]
 black = "*"
